@@ -1,24 +1,58 @@
-# project-images
+# project documentation
 
-## Project setup
-```
-npm install
-```
+## vuex
+Building the Header
+Styling the Header
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## authentication with OAuth2
+Imgur API Signup
+Connecting Vuex to Vue
+Initial Auth Module Design
+Auth Module Mutations
+Auth Module State and Getters
+Updating State Values
+Logging Out with Actions
+Separate API Helpers
+Forming the OAuth2 URL
+Initiating the Login Flow
+Wiring in the Auth Module
+Initial OAuth Request
+Extracting the Access Token
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## vue router
+Parsing the Access Token
+Data in Components with MapGetters
+The V-Else Directive
+Persisting Login State
+Button Styling
+Logging Out Users
+Automatic Component Updates
+Clearing LocalStorage Tokens
+Programmatic Navigation
+Additional Route Config
+Navigation with Router-Link
 
-### Lints and fixes files
-```
-npm run lint
-```
+##vuex modules Image Module Deisgn
+Module Implementation
+Fetch Images API Documentation
+Fetching Images
+Communicating Across Modules
+Testing Images Reponse
+Image Upload via Imgur
+Committing Images to State
+Mapping the Images Getter
+Listing Images
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+##image upload
+Image Upload Overview
+Upload Form HTML
+Styling the Upload Form
+The Upload Images Action
+File Change Event
+Accepting Multiple Image Files
+The Path to Upload
+Attaching Images with FormData
+Concurrent Uploads
+Layout with CSS Grid
+Hide Images on Logout
+Expanding the App
