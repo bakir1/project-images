@@ -1,5 +1,5 @@
 import api from '../../api/imgur';
-
+import { router } from '../../main';
 
 const state = {
     images: []
@@ -14,6 +14,16 @@ const actions = {
         const { token } = rootState.auth;
         const response = await api.fetchImages(token);
         commit('setImages', response.data.data)
+    },
+    async uploadImages({ rootState }, images) {
+        //get access token
+        const { token } = rootState.auth;
+
+        //call our api module to do upload
+        await api.uploadImages(images, token);
+
+        //redirect our user to ImageList component
+        router.push('/');
     }
 };
 
